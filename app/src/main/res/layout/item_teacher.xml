@@ -1,0 +1,52 @@
+<!-- res/layout/item_teacher.xml -->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="16dp"
+
+    android:elevation="4dp"
+    android:layout_marginBottom="8dp">
+
+    <!-- Imagen del docente -->
+    <ImageView
+        android:id="@+id/ivTeacherImage"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:layout_gravity="center"
+        android:layout_marginBottom="8dp"
+        android:scaleType="centerCrop"/>
+
+
+    <!-- Nombre completo del docente -->
+    <TextView
+        android:id="@+id/tvTeacherName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Nombre del docente"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:textColor="#333333"
+        android:layout_marginBottom="4dp"/>
+
+
+    <!-- Teléfono del docente -->
+    <TextView
+        android:id="@+id/tvTeacherPhone"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Teléfono: +51 925137361"
+        android:textSize="14sp"
+        android:textColor="#777777"
+        android:layout_marginBottom="4dp" />
+
+    <!-- Correo electrónico del docente -->
+    <TextView
+        android:id="@+id/tvTeacherEmail"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Email: vsaico@tecsup.edu.pe"
+        android:textSize="14sp"
+        android:textColor="#777777" />
+
+</LinearLayout>
